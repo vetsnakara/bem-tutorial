@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans|Pragati+Narrow"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Product Card</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="product">
+        <div class="product__photo-wrapper">
+          <img class="product__photo" src="photo.png" alt="Product photo" />
+        </div>
+        <div class="product__content">
+          <h2 class="product__title">Ribbed boots holographic</h2>
+          <div class="product__rating rating">
+            <div class="rating__stars">
+              <i class="rating__star rating__star--filled fas fa-star"></i>
+              <i class="rating__star rating__star--filled fas fa-star"></i>
+              <i class="rating__star rating__star--filled fas fa-star"></i>
+              <i class="rating__star fas fa-star"></i>
+              <i class="rating__star fas fa-star"></i>
+            </div>
+            <span class="rating__count">122 reviews</span>
+            <a class="rating__add" href="#">Write a review</a>
+          </div>
+          <div class="product__info">
+            <div class="product__info-row">
+              <span class="product__info-label">Brand</span>
+              <span class="product__info-value">JBL</span>
+            </div>
+            <div class="product__info-row">
+              <span class="product__info-label">Product Code</span>
+              <span class="product__info-value">007</span>
+            </div>
+            <div class="product__info-row">
+              <span class="product__info-label">Availability</span>
+              <span class="product__info-value">In Stock</span>
+            </div>
+          </div>
+          <div class="product__price price">
+            <div class="price__current">$98.00</div>
+            <div class="price__info">
+              <span class="price__old">$200.00</span>
+              <span class="price__discount">You save 31%</span>
+            </div>
+            <div class="price__actions">
+              <a class="price__save btn btn--primary" href="#">+ Save</a>
+              <a
+                class="price__buy btn btn--secondary btn--uppercase btn--wide"
+                href="#"
+                >Buy Now</a
+              >
+            </div>
+          </div>
+          <div class="product__desc">
+            <h3 class="product__desc-title title-small">Description</h3>
+            <p class="text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste
+              voluptatem modi officiis at dolorem libero reprehenderit quidem
+              delectus iure facere.
+            </p>
+          </div>
+          <ul class="product__socials socials">
+            <li class="socials__item">
+              <a class="socials__link socials__link--fb" href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="socials__item">
+              <a class="socials__link socials__link--tw" href="#">
+                <i class="icon fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="socials__item">
+              <a class="socials__link socials__link--g" href="#">
+                <i class="fab fa-google-plus-g"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
